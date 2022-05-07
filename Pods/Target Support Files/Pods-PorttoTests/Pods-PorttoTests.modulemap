@@ -1,0 +1,6 @@
+framework module Pods_PorttoTests {
+  umbrella header "Pods-PorttoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
