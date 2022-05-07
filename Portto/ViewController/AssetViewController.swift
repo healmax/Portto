@@ -52,6 +52,12 @@ final class AssetViewController: UIViewController {
                 self?.collectionView.reloadData()
             })
             .disposed(by: disposeBag)
+        
+        collectionView.rx.reachedBottom(offset: 10)
+            .subscribe(onNext: { [weak self] in
+                self?.viewModel.loadNextPage()
+            })
+            .disposed(by: disposeBag)
     }
 }
 
@@ -64,9 +70,6 @@ extension AssetViewController: UICollectionViewDataSource, UICollectionViewDeleg
         let asset = viewModel.retriveAsset(by: indexPath.row)
         let cell = collectionView.dequeueReusableCell(with: AssetViewCell.self, for: indexPath)
         cell.bindModel(asset: asset)
-        if viewModel.assetsCount - indexPath.row <= 6 {
-            viewModel.loadNextPage()
-        }
         return cell
     }
     

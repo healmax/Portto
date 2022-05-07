@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0718CA2F28267E4E00BD4F72 /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718CA2E28267E4E00BD4F72 /* UIScrollViewExtension.swift */; };
 		078411C7282447CB00010DA7 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078411C6282447CB00010DA7 /* OptionalExtension.swift */; };
 		078411CA2824DF7D00010DA7 /* AssetViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078411C92824DF7D00010DA7 /* AssetViewCell.swift */; };
 		078411CC2824DFCB00010DA7 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078411CB2824DFCB00010DA7 /* UICollectionViewExtension.swift */; };
@@ -57,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		02A1873C2EA9E2DF969B3262 /* Pods_Portto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Portto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0718CA2E28267E4E00BD4F72 /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
 		078411C6282447CB00010DA7 /* OptionalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
 		078411C92824DF7D00010DA7 /* AssetViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetViewCell.swift; sourceTree = "<group>"; };
 		078411CB2824DFCB00010DA7 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				078411C6282447CB00010DA7 /* OptionalExtension.swift */,
 				078411CB2824DFCB00010DA7 /* UICollectionViewExtension.swift */,
 				078411CD2824E12200010DA7 /* NSObjectExtension.swift */,
+				0718CA2E28267E4E00BD4F72 /* UIScrollViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 				078411CA2824DF7D00010DA7 /* AssetViewCell.swift in Sources */,
 				078411D92825A13900010DA7 /* ApplicationCoordinatorFactory.swift in Sources */,
 				078411CE2824E12200010DA7 /* NSObjectExtension.swift in Sources */,
+				0718CA2F28267E4E00BD4F72 /* UIScrollViewExtension.swift in Sources */,
 				07C2A56E2823ECDA00506A03 /* PorttoRequest+Asset.swift in Sources */,
 				078411C7282447CB00010DA7 /* OptionalExtension.swift in Sources */,
 				07B18BC12823DBF600E059D2 /* AppDelegate.swift in Sources */,
